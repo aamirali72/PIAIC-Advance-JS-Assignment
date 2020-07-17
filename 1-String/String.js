@@ -1,19 +1,19 @@
-//String
+// String
+// A JavaScript string stores a series of characters like "Ameen Alam". A string can be any text inside double or single quotes: var userName = "Ameen Alam"
 
-// console.log('Aamir\n Ali')
+// Practical Code Examples using JavaScript
 
-// String Primitive
+// Example:
 
-// var message = 'This is my\n first Message';
+// console.log("Hello Developers");
+// console.log('Hello Developers');
+// console.log('Hello \n Developers');
 
-var name1 = 'Aamir';
+// var str1 = "Hello";
+// console.log(str1);
+// var str2 = String("Hello");
+// console.log(str2);
 
-var another =
-    `Hi ${name1},
-
-Thanks you for joining my mailing list ${3+2}.
-
-Regards,
-Aamir`
-
-console.log(another);
+var str1 = "Hi";
+console.log(str1); // logs "Hi"
+console.log(str1.valueOf()); // logs "Hi"
